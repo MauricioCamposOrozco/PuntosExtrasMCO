@@ -3,29 +3,139 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PUNTOS EXTRAS</title>
-    <style>
-        body {
-            background-color: black;
-        }
-
-        table th {
-            text-align: center;
-            font-family: Verdana, Geneva, Tahoma, sans-serif;
-            color: goldenrod;
-        }
-    </style>
+    <title>PUNTOS EXTRAS :D</title>
+     <style>
+    body {
+      background-color: black; 
+      color: white;
+      font-family: Arial, sans-serif;
+    }
+    th {
+      text-align: center;
+      font-size: 35px;
+      color: goldenrod;
+    }
+    table {
+      width: 100%;
+      text-align: center;
+      margin: 20px 0;
+    }
+    td{
+      padding: 10px;
+      font-size: 20px;
+      color: white;
+    }
+    img {
+      width: 150px;
+      display: block;
+      margin: 0 auto;
+    }
+    .linea {
+      height: 3px;
+      background: goldenrod;
+      margin: 20px 0;
+    }
+    .marquesina {
+      background: white;
+      color: black;
+      padding: 5px;
+    }
+    footer {
+      text-align: center;
+      margin-top: 20px;
+      color: white;
+    }
+  </style>
 </head>
 <body>
-    <table>
-        <thead>
-            <tr>
-                <th>
-                    LOS EQUIPOS MAS GANADORES DEL SUPERBOWL
-                </th>
-            </tr>
-        </thead>
-    </table>
-    
+
+  <div class="linea"></div>
+
+  <!-- Tabla superior -->
+  <table>
+    <thead>
+      <tr>
+        <th>Steelers</th>
+        <th>LOS EQUIPOS MAS GANADORES DEL SUPERBOWL</th>
+        <th>Patriots</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>
+          <img src="img/steelers_h.jpg" alt="Steelers">
+          <p>Los Acereros de Pitsburg fue el primer
+             equipo en lograr 6 triunfos en el 
+             Superbowl (1975, 1976, 1979, 1980, 2006 y 2009)
+            </p>
+        </td>
+        <td>
+          <p>(GANADORES DE 4 O MÁS TROFEOS VINCE LOMBARDI)</p>
+          <audio controls autoplay loop>
+            <source src="audio/nfl.mp3" type="audio/mpeg">
+          </audio>
+        </td>
+        <td>
+          <img src="img/patriots_h.jpg" alt="Patriots">
+          <p>Los Patriotas de New England es el segundo equipo en lograr 6 triunfos en el Superbowl (2002, 2004, 2005, 2015 y 2017, 2019).
+
+          </p> 
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+  <!-- Tabla con 4 cascos -->
+  <table>
+    <thead>
+      <tr>
+        <th>Cowboys</th>
+        <th>49ERS</th>
+        <th>Packers</th>
+        <th>Giants</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>
+          <img src="img/dallas_h.jpg" alt="Dallas">
+          <p>1972, 1978, 1993, 1994, 1996</p>
+        </td>
+        <td>
+          <img src="img/49s_h.jpg" alt="49ers">
+          <p>1982, 1985, 1989, 1990, 1995</p>
+        </td>
+        <td>
+          <img src="img/packers_h.jpg" alt="Packers">
+          <p>1967, 1968, 1997, 2011</p>
+        </td>
+        <td>
+          <img src="img/gigants_h.jpg" alt="Giants">
+          <p>1987, 1991, 2008, 2012</p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div class="linea"></div>
+
+  <!-- Marquesina -->
+  <div class="marquesina">
+    <marquee>Broncos (3), Raiders (3), Redskins (3), Delfines (2), Potros (2)</marquee>
+  </div>
+
+  <div class="linea"></div>
+
+  <!-- Enlace -->
+  <p style="text-align:center;">
+    ¿Quieres conocer más? Visita 
+    <a href="https://www.nfl.com" target="_blank" style="color: lightblue;">www.nfl.com</a>
+  </p>
+
+  <div class="linea"></div>
+
+  <footer>
+    Mauricio Campos Orozco 45090
+  </footer>
 </body>
 </html>
